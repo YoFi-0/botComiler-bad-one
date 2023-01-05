@@ -1,0 +1,88 @@
+<div class="inputJsonFather password" data-index="0" data-isMany="false" data-from="0">
+    <div>
+        <span>require *</span>
+        <label>bot token</lable>
+    </div>
+    <input value="" class="inputJson requireInput" type=password data-for="bot token">
+</div>
+<div class="inputJsonFather text" data-index="1" data-isMany="false" data-from="0">
+    <div>
+        <span>require *</span>
+        <label>input Title</lable>
+    </div>
+    <input value="this is a title" class="inputJson requireInput" type=text data-for="input Title">
+</div>
+<div class="inputJsonFather text" data-index="2" data-isMany="false" data-from="0">
+    <div>
+        <span>optional</span>
+        <label>hi msg</lable>
+    </div>
+    <input value="hi msg say hi" class="inputJson optionalInput" type=text data-for="hi msg">
+</div>
+<div class="inputJsonFather text" data-index="3" data-isMany="false" data-from="2">
+    <div>
+        <span>require *</span>
+        <label>inclode the name</lable>
+    </div>
+    <input checked class="inputJson requireInput" type=text data-for="inclode the name">
+</div>
+<div class="inputJsonFather checkbox" data-index="4" data-isMany="false" data-from="0">
+    <div>
+        <span>optional</span>
+        <label>more button msg</lable>
+    </div>
+    <input value="" class="inputJson optionalInput" type=checkbox data-for="more button msg">
+</div>
+<div class="inputJsonFather select" data-index="5" data-isMany="false" data-from="4">
+    <div>
+        <span>optional</span>
+        <label>buttons color msg</lable>
+    </div>
+    <select class="inputJson optionalInput" data-for="buttons color msg">
+      <option value="Primary">Primary</option>
+      <option value="Secondary">Secondary</option>
+      <option value="Success">Success</option>
+      <option value="Danger">Danger</option>
+    </select>
+</div>
+<div class="inputJsonFather text" data-index="6" data-isMany="false" data-from="0">
+    <div>
+        <span>require *</span>
+        <label>prefix</lable>
+    </div>
+    <input value="" class="inputJson requireInput" type=text data-for="prefix">
+</div>
+<div class="inputJsonFather manytext" data-index="7" data-isMany="true" data-from="0">
+    <div data-input="many" class="many">
+        <div>
+            <span>require *</span>
+            <label>black list ids</lable>
+        </div>
+        <input class="inputJson requireInput" value="lolo" type=text data-for="black list ids">
+    </div>
+    <button class="plus"><i class="fas fa-plus"></i></button>
+    <button class="noPlus"><i class="fas fa-minus"></i></button>
+</div>
+<div class="inputJsonFather manytext" data-index="8" data-isMany="true" data-from="0">
+    <div data-input="many" class="many">
+        <div>
+            <span>require *</span>
+            <label>white list ids</lable>
+        </div>
+        <input class="inputJson requireInput" value="lala" type=text data-for="white list ids">
+    </div>
+    <button class="plus"><i class="fas fa-plus"></i></button>
+    <button class="noPlus"><i class="fas fa-minus"></i></button>
+</div>
+<div class="inputJsonFather select" data-index="9" data-isMany="false" data-from="0">
+    <div>
+        <span>require *</span>
+        <label>white list ids</lable>
+    </div>
+    <select class="inputJson requireInput" data-for="white list ids">
+      <option value="Primary">Primary</option>
+      <option value="Secondary">Secondary</option>
+      <option value="Success">Success</option>
+      <option value="Danger">Danger</option>
+    </select>
+</div>
